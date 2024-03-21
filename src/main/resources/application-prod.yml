@@ -1,0 +1,11 @@
+# 公共配置文件
+spring:
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url:
+    username: lowell_37
+    password: lowell_37
+  # session 失效时间
+  session:
+    timeout: 86400
